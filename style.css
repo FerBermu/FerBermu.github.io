@@ -1,0 +1,186 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width:100vw;
+    height: 100vh;
+    background-color: #1d263f;
+    color: white;
+
+}
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.nombre{
+    margin-top: -40px;
+    margin-left: -30px;
+}
+
+.nombre span {
+    color:grey;
+}
+
+.nombre h2{
+    color:#5c4c76;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em
+}
+
+.menu li {
+    list-style:none;
+}
+
+h2{
+    font-size: 70px;
+}
+
+.menu a:hover{
+    background-color: #222b2f;
+    color:#893459;
+    transition:ease-in .2s;
+}
+h1 {
+    font-size: 3em;
+    color: #8187d1;
+}
+p{
+    font-size: 2em;
+    color: #a8b3c6;
+}
+
+
+.principal {
+    margin: 0 auto;
+   width: 80vw;
+   height: 80vh;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center;
+}
+
+.principal img{
+    width: 520px;
+    height: 520px;  
+    padding-right: -250px;
+}
+
+div .informacion {
+    padding-left: 20px;
+}
+
+.sobre {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobre img{
+   width: 100%;
+   grid-column: 1/5;
+}
+
+.sobretexto {
+    grid-column: 5/10;
+    padding: 2em;
+}
+
+.sobretexto h2{
+    font-size: 4em;
+    color:#222b2f
+
+}
+
+.sobretexto h2 span#letra{
+    color: #5c4c76;
+}
+
+.sobretexto h2 span#letraa{
+    color: grey;
+}
+
+.sobretexto p {
+    color:#222b2f
+}
+
+.sobretexto p span#html{
+    color: orangered;
+}
+
+.sobretexto p span#css{
+    color: skyblue;
+}
+
+.sobretexto p span#js{
+    color: #e3b915;
+}
+.contacto{
+    background-color: #0c2d43;
+}
+.contacto h2{
+    font-size: 3em;
+    color:#5c4c76;
+}
+
+
+.formacontacto{
+    padding: 2em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.tabla{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.tabla input{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color:white;
+
+}
+
+.tabla textarea{
+    height: 150px;
+    background: none;
+    color:white;
+
+}
+
+.tabla .boton{
+padding: 10px 20px;
+margin: 2em;
+background-color: #7d6ddb;
+}
+
+.tabla .boton:hover{
+    color:white;
+    background-color: #222b2f;
+    transition: .2s;
+}
